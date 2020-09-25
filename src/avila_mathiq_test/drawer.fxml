@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="basepane" prefHeight="558.0" prefWidth="237.0" spacing="5.0" style="-fx-background-color: #D14424; -fx-border-color: #C74122;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avila_mathiq_test.DrawerController">
+    
+    
+    <children>
+      <HBox alignment="TOP_CENTER" prefHeight="115.0" prefWidth="235.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="115.0" fitWidth="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Circled%20User%20Male_96px_2.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.71" contrast="1.0" hue="0.02" saturation="1.0" />
+               </effect>
+            </ImageView>
+         </children>
+      </HBox>
+      <Button fx:id="big1" accessibleText="home" layoutX="11.0" layoutY="226.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="252.0" text="Home Page               " textFill="#dd6f0f">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Home_96px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+                                                    
+      
+      <Button fx:id="big" accessibleText="beginner" mnemonicParsing="false" prefHeight="47.0" prefWidth="252.0" text="Beginners                        " textFill="#dd6f0f">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/images%20(1).jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.31" contrast="0.14" hue="-0.31" saturation="-0.17" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="inter" accessibleText="intermediate" layoutX="10.0" layoutY="175.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="363.0" text="Intermediate                           " textFill="#dd6f0f">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/images%20(1).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="ex" accessibleText="expert" layoutX="10.0" layoutY="175.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="336.0" text="Expert                                 " textFill="#dd6f0f">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/images%20(1).jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust contrast="0.45" hue="-1.0" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="ab1" accessibleText="IQ" layoutX="11.0" layoutY="401.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="240.0" text="IQ HighScores                   ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/High%20Connection_96px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="log" accessibleText="logout" layoutX="10.0" layoutY="175.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="305.0" text="Log out                                " textFill="#945215">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Logout%20Rounded%20Up_96px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="ab" accessibleText="about" layoutX="10.0" layoutY="229.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="240.0" text="About                                    " textFill="#945215">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/About_104px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="exit" accessibleText="exit" layoutX="10.0" layoutY="285.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="247.0" text="Exit                                         " textFill="#945215">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Switch%20Off_104px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</VBox>

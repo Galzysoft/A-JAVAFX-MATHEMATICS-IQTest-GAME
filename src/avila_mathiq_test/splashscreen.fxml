@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="382.0" prefWidth="600.0" style="-fx-background-color: #EC6131;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avila_mathiq_test.SplashscreenController">
+   <children>
+      <ImageView fx:id="imm" fitHeight="384.0" fitWidth="486.0" opacity="0.86" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/FullSizeRender.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#f4f5f8" layoutX="27.0" layoutY="43.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avila MathIQTest" textAlignment="CENTER" underline="true" wrappingWidth="537.13671875">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt1" fill="#d34826" layoutX="27.0" layoutY="42.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avila MathIQTest" textAlignment="CENTER" underline="true" wrappingWidth="537.13671875">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <JFXSpinner layoutX="184.0" layoutY="145.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="56.0" prefWidth="246.0" />
+      <Pane fx:id="logo" layoutX="439.0" layoutY="267.0" prefHeight="66.0" prefWidth="167.0" style="-fx-background-color: #C84C15; -fx-background-radius: 20;" translateY="-350.0">
+         <children>
+            <ImageView fitHeight="66.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/ben.PNG" />
+               </image>
+               <effect>
+                  <Blend />
+               </effect>
+            </ImageView>
+            <Text fill="#1f0068" layoutX="77.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powered by">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect></Text>
+            <Text fill="WHITE" layoutX="77.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powered by">
+               <effect>
+                  <DropShadow />
+               </effect></Text>
+            <Text fill="#1f0068" layoutX="82.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GalzySoft" wrappingWidth="51.4765625">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect></Text>
+            <Text fill="WHITE" layoutX="82.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GalzySoft" wrappingWidth="51.4765625">
+               <effect>
+                  <DropShadow />
+               </effect></Text>
+         </children>
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchoo" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="719.0" style="-fx-background-radius: 20; -fx-border-color: #C94524; -fx-border-width: 2;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avila_mathiq_test.FXMLDocumentController">
+   <children>
+      <HBox layoutX="11.0" layoutY="11.0" prefHeight="471.0" prefWidth="703.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="9.0">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="543.0" prefWidth="545.0" style="-fx-background-color: #D34826; -fx-background-radius: 20; -fx-border-radius: 20;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="204.0" prefWidth="459.0">
+                     <children>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="180.0" prefWidth="543.0" spacing="30.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <HBox>
+                                 <children>
+                                    <ImageView fitHeight="33.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@image/Circled%20User%20Male_96px_2.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXTextField fx:id="username" focusColor="#d34826" labelFloat="true" layoutX="20.0" layoutY="30.0" prefHeight="37.0" prefWidth="396.0" promptText="Username" style="-fx-prompt-text-fill: #FF4F09; -fx-text-inner-color: #FF4F09; -fx-text-inner-color: #FF4F09; -fx-prompt-text-fill: #FF4F09;" unFocusColor="#ff4f09">
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                       <effect>
+                                          <Reflection />
+                                       </effect>
+                                    </JFXTextField>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="40.0" prefWidth="334.0">
+                                 <children>
+                                    <ImageView fitHeight="33.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@image/Keepass_100px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXPasswordField fx:id="password" focusColor="#d34826" labelFloat="true" prefHeight="40.0" prefWidth="397.0" promptText="Password" style="-fx-prompt-text-fill: #FF4F09; -fx-text-inner-color: #FF4F09;" unFocusColor="#ff4f09">
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                       <effect>
+                                          <Reflection />
+                                       </effect>
+                                    </JFXPasswordField>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="20.0" top="40.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <VBox prefHeight="33.0" prefWidth="363.0" style="-fx-background-color: white;">
+                     <children>
+                        <HBox alignment="CENTER" opacity="0.8" prefHeight="46.0" prefWidth="363.0" spacing="10.0" style="-fx-background-color: #FFFFFF;">
+                           <children>
+                              <ImageView fitHeight="48.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="48.0" fitWidth="101.0" layoutX="323.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="48.0" fitWidth="101.0" layoutX="158.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <Pane prefHeight="48.0" prefWidth="149.0">
+                                 <children>
+                                    <JFXButton fx:id="btn" buttonType="RAISED" layoutX="15.0" layoutY="11.0" onAction="#login1" prefHeight="25.0" prefWidth="138.0" style="-fx-background-color: #ff4f09; -fx-background-radius: 20000; -fx-border-radius: 20000;" text="Sign In" textFill="#fcfaf9">
+                                       <effect>
+                                          <DropShadow height="106.99" radius="89.9975" spread="0.34" width="255.0" />
+                                       </effect>
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip text="Click to sign In" />
+                                       </tooltip>
+                                    </JFXButton>
+                                 </children>
+                                 <effect>
+                                    <Reflection />
+                                 </effect>
+                              </Pane>
+                              <ImageView fitHeight="48.0" fitWidth="101.0" layoutX="323.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="48.0" fitWidth="101.0" layoutX="378.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="48.0" fitWidth="101.0" layoutX="328.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </VBox>
+                  <VBox style="-fx-background-color: white;">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="146.0" prefWidth="459.0" style="-fx-background-color: #FFFFFF;">
+                           <children>
+                              <JFXSpinner fx:id="pi" visible="false" />
+                              <Text fill="#f83206" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Avila MathIQ1 is a product of avila this app helps to test and improve students maths multiplication IQ" textAlignment="CENTER" wrappingWidth="542.724609375" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="0.0" radius="0.0" spread="0.17" width="0.0" />
+                                 </effect>
+                              </Text>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="BOTTOM_CENTER" style="-fx-background-color: A7A7A7;">
+                     <children>
+                        <HBox alignment="TOP_CENTER" prefHeight="22.0" prefWidth="318.0" spacing="10.0" style="-fx-background-color: #F3F3F3;">
+                           <children>
+                              <JFXButton fx:id="signup" buttonType="RAISED" layoutX="49.0" layoutY="10.0" onAction="#login" prefHeight="25.0" prefWidth="63.0" text="Sign up" textFill="#ff4f09" underline="true">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow radius="14.4475" spread="0.22" width="38.79" />
+               </effect>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" prefHeight="478.0" prefWidth="152.0">
+               <children>
+                  <HBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="149.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/Capture.PNG" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="26.0" fitWidth="24.0" layoutX="42.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+                        <JFXButton fx:id="minimize" onAction="#minimize" prefHeight="33.0" prefWidth="31.0" ripplerFill="#e8c246" text=" ">
+                           <graphic>
+                              <ImageView fitHeight="24.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Minus_30px_2.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <tooltip>
+                              <Tooltip text="Cick to Minimize" />
+                           </tooltip>
+                        </JFXButton>
+                        <JFXButton fx:id="exit" layoutX="110.0" layoutY="10.0" onAction="#exit" prefHeight="33.0" prefWidth="31.0" ripplerFill="#e55547" text=" ">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Cancel%202_30px_1.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <tooltip>
+                              <Tooltip text="Close  SignIn" />
+                           </tooltip>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="152.0">
+                     <children>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="446.0" prefWidth="149.0" style="-fx-background-color: #FFFFFF;">
+                           <children>
+                              <ImageView fitHeight="26.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="60.0" fitWidth="52.0" layoutX="10.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="90.0" fitWidth="134.0" layoutX="10.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="90.0" fitWidth="134.0" layoutX="10.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="90.0" fitWidth="134.0" layoutX="10.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="75.0" fitWidth="101.0" layoutX="10.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Capture.PNG" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton text="Powered by GalzySoft" textFill="#ff4f09">
+                                 <tooltip>
+                                    <Tooltip text="contact  the software developer  via onyekaejimns@gmail.com or call  08105124112 " />
+                                 </tooltip>
+                              </JFXButton>
+                           </children>
+                        </VBox>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+   <stylesheets>
+      <URL value="@../../../BIZ_APPpp/src/biz_app/sign_up.css" />
+   </stylesheets>
+</AnchorPane>

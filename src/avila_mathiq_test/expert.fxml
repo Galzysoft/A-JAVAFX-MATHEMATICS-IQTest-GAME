@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="809.0" style="-fx-background-color: #651000;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avila_mathiq_test.ExpertController">
+   <children>
+      <VBox layoutX="-9.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" layoutY="-30.4541015625" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <HBox VBox.vgrow="ALWAYS">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Expert Tutorials" wrappingWidth="504.95458984375" HBox.hgrow="ALWAYS">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Bookshelf Symbol 7" size="39.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                           <fill>
+                              <RadialGradient centerX="0.4666666666666666" centerY="0.9761904761904762" radius="0.5">
+                                 <stops>
+                                    <Stop color="#c94309" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                        </Text>
+                        <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <ImageView fitHeight="53.0" fitWidth="115.0" layoutX="591.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="383.0" AnchorPane.leftAnchor="591.0" AnchorPane.rightAnchor="103.0" AnchorPane.topAnchor="8.0">
+                                 <effect>
+                                    <ColorAdjust brightness="-0.49" contrast="1.0" hue="0.95" saturation="1.0" />
+                                 </effect>
+                                 <image>
+                                    <Image url="@image/images%20(1).jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <AnchorPane prefHeight="92.0" prefWidth="883.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Text layoutX="14.0" layoutY="13.0" lineSpacing="0.1" strokeType="OUTSIDE" strokeWidth="0.0" text="Quick Multipliation For Expert. Firstly, you should note that whenever you are to multiply numbers ending with zero, take the zero and add to the other multiplicands." textAlignment="CENTER" wrappingWidth="695.388671875" AnchorPane.bottomAnchor="13.205276489257812" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="183.611328125" AnchorPane.topAnchor="-17.4541015625">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <fill>
+                              <RadialGradient centerX="0.49444444444444446" centerY="0.8761904761904761" radius="0.5">
+                                 <stops>
+                                    <Stop color="#f8fbfc" />
+                                    <Stop color="#7b2600" offset="0.26804123711340205" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </fill>
+                           <font>
+                              <Font name="AngsanaUPC" size="33.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox layoutY="56.0" prefHeight="684.0" prefWidth="899.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="53.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXTabPane prefHeight="352.0" prefWidth="745.0" VBox.vgrow="ALWAYS">
+                     <tabs>
+                        <Tab onSelectionChanged="#example" text="Examples">
+                           <content>
+                              <AnchorPane layoutY="1.0" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <ScrollPane layoutX="14.0" layoutY="5.0" prefHeight="233.0" prefViewportHeight="1783.0" prefViewportWidth="723.0" prefWidth="820.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="5.0">
+                                       <content>
+                                          <VBox layoutY="23.0" prefHeight="1249.0" prefWidth="651.0" spacing="60.0">
+                                             <children>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="132.0" prefWidth="651.0">
+                                                   <children>
+                                                      <Text fill="#7b2600" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" E.g" textAlignment="JUSTIFY" wrappingWidth="566.388671875">
+                                                         <font>
+                                                            <Font name="AngsanaUPC" size="33.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <HBox alignment="CENTER" layoutX="-3.0" layoutY="53.0" prefHeight="133.0" prefWidth="618.0">
+                                                         <children>
+                                                            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.0" prefWidth="574.0">
+                                                               <children>
+                                                                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2 x 100 = 200  13 x 100 = 1300" textAlignment="CENTER" wrappingWidth="160.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                                  <Text fill="#7b2600" strokeType="OUTSIDE" strokeWidth="0.0" text="Moreover, simplifying large number makes it easier to calulate with the mind. Example:" textAlignment="JUSTIFY" wrappingWidth="651.388671875">
+                                                                     <font>
+                                                                        <Font name="AngsanaUPC Bold" size="33.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="123.0" prefWidth="651.0">
+                                                   <children>
+                                                      <Text fill="#7b2600" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) 17 x 102 " textAlignment="JUSTIFY" wrappingWidth="566.388671875">
+                                                         <font>
+                                                            <Font name="AngsanaUPC" size="33.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <HBox alignment="CENTER" layoutX="-3.0" layoutY="53.0" prefHeight="115.0" prefWidth="618.0">
+                                                         <children>
+                                                            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="79.0" prefWidth="574.0">
+                                                               <children>
+                                                                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="17(100 + 2)  = 1700 + 34 = 1,734" textAlignment="JUSTIFY" wrappingWidth="204.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane layoutX="10.0" layoutY="202.0" minHeight="0.0" minWidth="0.0" prefHeight="123.0" prefWidth="651.0">
+                                                   <children>
+                                                      <Text fill="#7b2600" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) 19 x 110 " textAlignment="JUSTIFY" wrappingWidth="566.388671875">
+                                                         <font>
+                                                            <Font name="AngsanaUPC" size="33.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <HBox alignment="CENTER" layoutX="-3.0" layoutY="53.0" prefHeight="115.0" prefWidth="618.0">
+                                                         <children>
+                                                            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="574.0">
+                                                               <children>
+                                                                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="19 (100 + 10 )                      = 1900 + 190 = 2,090" textAlignment="JUSTIFY" wrappingWidth="278.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane layoutX="10.0" layoutY="385.0" minHeight="0.0" minWidth="0.0" prefHeight="123.0" prefWidth="651.0">
+                                                   <children>
+                                                      <Text fill="#7b2600" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) 21 x 105 " textAlignment="JUSTIFY" wrappingWidth="566.388671875">
+                                                         <font>
+                                                            <Font name="AngsanaUPC" size="33.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <HBox alignment="CENTER" layoutX="-3.0" layoutY="53.0" prefHeight="115.0" prefWidth="618.0">
+                                                         <children>
+                                                            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="574.0">
+                                                               <children>
+                                                                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" 21(100 + 5)                       =2,100 + 105                       = 2,205" textAlignment="JUSTIFY" wrappingWidth="278.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane layoutX="10.0" layoutY="568.0" minHeight="0.0" minWidth="0.0" prefHeight="123.0" prefWidth="651.0">
+                                                   <children>
+                                                      <Text fill="#7b2600" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) 49 x 120 " textAlignment="JUSTIFY" wrappingWidth="566.388671875">
+                                                         <font>
+                                                            <Font name="AngsanaUPC" size="33.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <HBox alignment="CENTER" layoutX="-3.0" layoutY="53.0" prefHeight="115.0" prefWidth="618.0">
+                                                         <children>
+                                                            <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="209.0">
+                                                               <children>
+                                                                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="120 (50 -1)                      = 6,000 - 120" textAlignment="JUSTIFY" wrappingWidth="244.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                                  <Text layoutX="10.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="= 5,880" textAlignment="JUSTIFY" wrappingWidth="244.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                               </children>
+                                                            </VBox>
+                                                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="OR" textAlignment="JUSTIFY" wrappingWidth="79.451171875">
+                                                               <font>
+                                                                  <Font size="22.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <VBox layoutX="51.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="258.0">
+                                                               <children>
+                                                                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="120 (50 -1)                      = 6,000 - 120" textAlignment="JUSTIFY" wrappingWidth="244.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                                  <Text layoutX="10.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="= 5,880" textAlignment="JUSTIFY" wrappingWidth="244.451171875">
+                                                                     <font>
+                                                                        <Font size="22.0" />
+                                                                     </font>
+                                                                  </Text>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab onSelectionChanged="#gotto" text="Exercises">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <VBox fx:id="v2" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="745.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                                             <children>
+                                                <HBox alignment="TOP_RIGHT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="745.0">
+                                                   <children>
+                                                      <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="607.0" HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <JFXButton onAction="#getstart" prefHeight="27.0" prefWidth="84.0" ripplerFill="#1f0068" style="-fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 1; -fx-border-radius: 20; -fx-background-color: #7B2600;" text="Back" textFill="#f2f0f0" underline="true" />
+                                                         </children>
+                                                      </HBox>
+                                                      <StackPane prefHeight="46.0" prefWidth="293.0">
+                                                         <children>
+                                                            <Label fx:id="timer" alignment="CENTER" prefHeight="46.0" prefWidth="313.0" style="-fx-background-radius: 2000; -fx-border-color: #7B2600; -fx-border-radius: 2000; -fx-border-width: 7;" text="170 ">
+                                                               <font>
+                                                                  <Font name="Californian FB Bold" size="23.0" />
+                                                               </font>
+                                                               <textFill>
+                                                                  <LinearGradient endX="1.0" endY="1.0">
+                                                                     <stops>
+                                                                        <Stop color="#170202" />
+                                                                        <Stop color="#c31e1e" offset="1.0" />
+                                                                     </stops>
+                                                                  </LinearGradient>
+                                                               </textFill>
+                                                            </Label>
+                                                            <JFXSpinner prefHeight="46.0" prefWidth="161.0" />
+                                                         </children>
+                                                      </StackPane>
+                                                   </children>
+                                                </HBox>
+                                                <VBox prefHeight="18.0" prefWidth="717.0" VBox.vgrow="ALWAYS" />
+                                             </children>
+                                          </VBox>
+                                          <JFXTabPane fx:id="tabpaneeeee" prefHeight="407.0" prefWidth="805.0" VBox.vgrow="ALWAYS">
+                                             <tabs>
+                                                <Tab fx:id="home">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <VBox alignment="CENTER" layoutX="20.0" layoutY="-19.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="782.0" spacing="7.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <children>
+                                                                  <Text fill="#f8fcf8" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise" textAlignment="CENTER" underline="true" wrappingWidth="216.13671875" VBox.vgrow="ALWAYS">
+                                                                     <effect>
+                                                                        <Lighting bumpInput="$null">
+                                                                           <light>
+                                                                              <Light.Distant />
+                                                                           </light>
+                                                                        </Lighting>
+                                                                     </effect>
+                                                                     <font>
+                                                                        <Font name="Bauhaus 93" size="29.0" />
+                                                                     </font>
+                                                                     <VBox.margin>
+                                                                        <Insets top="20.0" />
+                                                                     </VBox.margin>
+                                                                  </Text>
+                                                                  <VBox alignment="BOTTOM_CENTER" prefHeight="259.0" prefWidth="723.0" spacing="25.0" VBox.vgrow="ALWAYS">
+                                                                     <children>
+                                                                        <Text fill="#f8fcf8" strokeType="OUTSIDE" strokeWidth="0.0" text="With these exercises  here you can  test your IQ level by simply clicking on the  start button below" textAlignment="CENTER" wrappingWidth="523.13671875" VBox.vgrow="ALWAYS">
+                                                                           <effect>
+                                                                              <Lighting bumpInput="$null">
+                                                                                 <light>
+                                                                                    <Light.Distant />
+                                                                                 </light>
+                                                                              </Lighting>
+                                                                           </effect>
+                                                                           <font>
+                                                                              <Font name="Bauhaus 93" size="22.0" />
+                                                                           </font>
+                                                                        </Text>
+                                                                        <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="20.0" prefWidth="346.0" spacing="200.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-background-radius: white; -fx-border-radius: 20; -fx-border-color: white; -fx-border-radius: 20; -fx-background-radius: 20;" VBox.vgrow="ALWAYS">
+                                                                           <children>
+                                                                              <JFXButton layoutX="108.0" layoutY="10.0" onAction="#getquestions" prefHeight="27.0" prefWidth="84.0" ripplerFill="#1f0068" style="-fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 1; -fx-border-radius: 20; -fx-background-color: #7B2600;" text="Start" textFill="#f2f0f0" underline="true" HBox.hgrow="ALWAYS" />
+                                                                           </children>
+                                                                           <effect>
+                                                                              <DropShadow />
+                                                                           </effect>
+                                                                           <padding>
+                                                                              <Insets left="10.0" top="5.0" />
+                                                                           </padding>
+                                                                        </HBox>
+                                                                        <VBox alignment="TOP_CENTER" prefHeight="74.0" prefWidth="722.0" VBox.vgrow="ALWAYS">
+                                                                           <children>
+                                                                              <Text fill="#d44926" strokeType="OUTSIDE" strokeWidth="0.0" text="The faster you are the smarter you become" VBox.vgrow="ALWAYS">
+                                                                                 <font>
+                                                                                    <Font name="Bauhaus 93" size="32.0" />
+                                                                                 </font>
+                                                                              </Text>
+                                                                           </children>
+                                                                        </VBox>
+                                                                        <JFXSpinner prefHeight="46.0" prefWidth="524.0" />
+                                                                     </children>
+                                                                  </VBox>
+                                                               </children>
+                                                               <effect>
+                                                                  <DropShadow />
+                                                               </effect>
+                                                               <padding>
+                                                                  <Insets top="13.0" />
+                                                               </padding>
+                                                            </VBox>
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab fx:id="tq">
+                                                   <content>
+                                                      <AnchorPane prefHeight="265.0" prefWidth="644.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER" layoutY="54.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="644.0" style="-fx-background-color: #651000;" AnchorPane.bottomAnchor="-11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                                               <children>
+                                                                  <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="153.0" prefWidth="622.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 8; -fx-background-color: #651000;" styleClass="mainFxmlClass">
+                                                                     <children>
+                                                                        <VBox layoutX="102.0" layoutY="14.0" prefHeight="126.0" prefWidth="400.0" spacing="19.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white; -fx-border-width: 8;">
+                                                                           <children>
+                                                                              <HBox alignment="BOTTOM_RIGHT">
+                                                                                 <children>
+                                                                                    <Text fx:id="question" fill="#612910" strokeType="OUTSIDE" strokeWidth="0.0" underline="true" wrappingWidth="356.13671875">
+                                                                                       <effect>
+                                                                                          <Reflection />
+                                                                                       </effect>
+                                                                                       <font>
+                                                                                          <Font name="Aparajita" size="21.0" />
+                                                                                       </font>
+                                                                                       <VBox.margin>
+                                                                                          <Insets left="10.0" />
+                                                                                       </VBox.margin>
+                                                                                    </Text>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox fx:id="answerbase" alignment="CENTER" spacing="20.0">
+                                                                                 <padding>
+                                                                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                                                                 </padding>
+                                                                                 <children>
+                                                                                    <HBox>
+                                                                                       <children>
+                                                                                          <ImageView fitHeight="33.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                                                                             <image>
+                                                                                                <Image url="@image/Answers_100px.png" />
+                                                                                             </image>
+                                                                                          </ImageView>
+                                                                                          <JFXTextField fx:id="answert" focusColor="#d34826" labelFloat="true" layoutX="20.0" layoutY="30.0" prefHeight="37.0" prefWidth="396.0" promptText="Enter Your Answer" style="-fx-prompt-text-fill: #FF4F09; -fx-text-inner-color: #FF4F09; -fx-text-inner-color: #FF4F09; -fx-prompt-text-fill: #FF4F09;" unFocusColor="#ff4f09">
+                                                                                             <effect>
+                                                                                                <Reflection />
+                                                                                             </effect>
+                                                                                             <padding>
+                                                                                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                                                             </padding>
+                                                                                          </JFXTextField>
+                                                                                       </children>
+                                                                                    </HBox>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="34.0" prefWidth="401.0" spacing="20.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-background-radius: white; -fx-border-radius: 20; -fx-border-color: white; -fx-border-radius: 20; -fx-background-radius: 20;">
+                                                                                 <children>
+                                                                                    <JFXButton fx:id="next" layoutX="181.0" layoutY="16.0" onAction="#question" prefHeight="27.0" prefWidth="150.0" ripplerFill="#1f0068" style="-fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 1; -fx-border-radius: 20; -fx-background-color: #7B2600;" text="Next" textFill="#f2f0f0" underline="true" />
+                                                                                 </children>
+                                                                                 <effect>
+                                                                                    <DropShadow />
+                                                                                 </effect>
+                                                                                 <padding>
+                                                                                    <Insets left="10.0" top="5.0" />
+                                                                                 </padding>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <effect>
+                                                                              <DropShadow height="111.31" radius="64.4525" spread="0.4" width="148.5" />
+                                                                           </effect>
+                                                                        </VBox>
+                                                                        <AnchorPane layoutX="9.0" layoutY="28.0" prefHeight="70.0" prefWidth="71.0" style="-fx-background-radius: 2000; -fx-border-radius: 200;">
+                                                                           <children>
+                                                                              <ImageView fitHeight="103.0" fitWidth="93.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+                                                                                 <effect>
+                                                                                    <Reflection bottomOpacity="0.05" />
+                                                                                 </effect>
+                                                                                 <image>
+                                                                                    <Image url="@image/angle.png" />
+                                                                                 </image>
+                                                                              </ImageView>
+                                                                           </children>
+                                                                        </AnchorPane>
+                                                                     </children>
+                                                                     <effect>
+                                                                        <Lighting>
+                                                                           <bumpInput>
+                                                                              <Shadow />
+                                                                           </bumpInput>
+                                                                           <light>
+                                                                              <Light.Distant />
+                                                                           </light>
+                                                                        </Lighting>
+                                                                     </effect>
+                                                                     <stylesheets>
+                                                                        <URL value="@../../../HEALTH%20EXPERT%20SYSTEM/src/health/expert/system/diagnosess.css" />
+                                                                     </stylesheets>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab fx:id="tq1">
+                                                   <content>
+                                                      <AnchorPane prefHeight="265.0" prefWidth="644.0">
+                                                         <children>
+                                                            <VBox alignment="TOP_CENTER" layoutY="54.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="644.0" style="-fx-background-color: #651000;" AnchorPane.bottomAnchor="-11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                                               <children>
+                                                                  <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="219.0" prefWidth="791.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 8; -fx-background-color: #651000;" styleClass="mainFxmlClass">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" layoutX="40.0" layoutY="14.0" prefHeight="174.0" prefWidth="703.0" spacing="19.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white; -fx-border-width: 8;" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="14.0">
+                                                                           <children>
+                                                                              <Text fx:id="congrats" fill="#7b2600" strokeType="OUTSIDE" strokeWidth="0.0" text="Ben Congrats You answerd 50 questions and failed 30 questions  in 30 sec">
+                                                                                 <font>
+                                                                                    <Font name="Bookshelf Symbol 7" size="17.0" />
+                                                                                 </font>
+                                                                              </Text>
+                                                                              <HBox alignment="TOP_CENTER">
+                                                                                 <children>
+                                                                                    <Text fx:id="congrats1" fill="#7b2600" layoutX="36.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your previous score is 20 mack you really improved">
+                                                                                       <font>
+                                                                                          <Font name="Bookshelf Symbol 7" size="15.0" />
+                                                                                       </font>
+                                                                                    </Text>
+                                                                                    <Text fx:id="congrats11" fill="#7b2600" layoutX="138.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" you are slow this time">
+                                                                                       <font>
+                                                                                          <Font name="Bookshelf Symbol 7" size="15.0" />
+                                                                                       </font>
+                                                                                    </Text>
+                                                                                 </children>
+                                                                              </HBox>
+                                                                              <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="34.0" prefWidth="401.0" spacing="20.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-background-radius: white; -fx-border-radius: 20; -fx-border-color: white; -fx-border-radius: 20; -fx-background-radius: 20;">
+                                                                                 <children>
+                                                                                    <JFXButton fx:id="next1" layoutX="181.0" layoutY="16.0" onAction="#getstart" prefHeight="27.0" prefWidth="150.0" ripplerFill="#1f0068" style="-fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 1; -fx-border-radius: 20; -fx-background-color: #7B2600;" text="OK" textFill="#f2f0f0" underline="true" />
+                                                                                 </children>
+                                                                                 <effect>
+                                                                                    <DropShadow />
+                                                                                 </effect>
+                                                                                 <padding>
+                                                                                    <Insets left="10.0" top="5.0" />
+                                                                                 </padding>
+                                                                              </HBox>
+                                                                           </children>
+                                                                           <effect>
+                                                                              <DropShadow height="111.31" radius="64.4525" spread="0.4" width="148.5" />
+                                                                           </effect>
+                                                                        </VBox>
+                                                                     </children>
+                                                                     <effect>
+                                                                        <Lighting>
+                                                                           <bumpInput>
+                                                                              <Shadow />
+                                                                           </bumpInput>
+                                                                           <light>
+                                                                              <Light.Distant />
+                                                                           </light>
+                                                                        </Lighting>
+                                                                     </effect>
+                                                                     <stylesheets>
+                                                                        <URL value="@../../../HEALTH%20EXPERT%20SYSTEM/src/health/expert/system/diagnosess.css" />
+                                                                     </stylesheets>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </Tab>
+                                             </tabs>
+                                          </JFXTabPane>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                     </tabs>
+                  </JFXTabPane>
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@beginner.css" />
+   </stylesheets>
+</AnchorPane>

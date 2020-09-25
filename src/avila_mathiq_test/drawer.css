@@ -1,0 +1,20 @@
+/*
+ * Empty Stylesheet file.
+ */
+.button{
+    -fx-background-color:#D14424;
+    -fx-text-fill:  white; 
+    -fx-alignment: center;
+}
+.button:hover{
+    -fx-background-color:   white;
+    -fx-text-fill:  #D14424;
+    -fx-alignment: center;
+}
+.button:pressed{
+    -fx-background-color:   #F0F0F0;
+    -fx-text-fill:  #D14424;
+    -fx-alignment: center;
+    -fx-rotate: 0.5;
+}
+

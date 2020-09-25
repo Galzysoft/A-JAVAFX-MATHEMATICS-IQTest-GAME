@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" prefHeight="575.0" prefWidth="975.0" style="-fx-background-color: #C94524;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avila_mathiq_test.Grade_sortController">
+   <children>
+      <Text fx:id="txt1" fill="#6b1d0c" layoutX="100.0" layoutY="79.0" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lists of IQ High Scores" textAlignment="CENTER" wrappingWidth="695.13671875" AnchorPane.bottomAnchor="318.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="27.0">
+         <effect>
+            <DropShadow radius="20.377499999999998" spread="0.34" width="62.51" />
+         </effect>
+         <font>
+            <Font name="Bauhaus 93" size="57.0" />
+         </font>
+      </Text>
+      <Text layoutX="177.0" layoutY="78.23876953125" lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lists of IQ High Scores" textAlignment="CENTER" wrappingWidth="557.13671875" AnchorPane.bottomAnchor="226.0" AnchorPane.leftAnchor="177.0" AnchorPane.rightAnchor="48.0" AnchorPane.topAnchor="27.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#daaa8e" />
+                  <Stop color="#f5f5f7" offset="0.07216494845360825" />
+                  <Stop color="#d9aa8f" offset="0.7285223367697594" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font name="Bauhaus 93" size="57.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" layoutY="168.0" prefHeight="295.0" prefWidth="975.0" spacing="30.0" AnchorPane.bottomAnchor="112.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="168.0">
+         <children>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="295.0" prefWidth="248.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TableView fx:id="tbeginner" prefHeight="239.0" prefWidth="259.0">
+                          <columns>
+                            <TableColumn fx:id="bname" prefWidth="201.0" text="NAME" />
+                            <TableColumn fx:id="biq" prefWidth="48.0" text="IQ%" />
+                          </columns>
+                        </TableView>
+                        <Text fx:id="btext" fill="#006346" strokeType="OUTSIDE" strokeWidth="0.0" text="Beginner">
+                           <font>
+                              <Font name="Bauhaus 93" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <effect>
+                        <InnerShadow color="#072f02" height="98.09" radius="55.957499999999996" width="127.74" />
+                     </effect>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow radius="37.3675" width="130.47" />
+               </effect>
+            </VBox>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="295.0" prefWidth="248.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TableView fx:id="tintermediate" prefHeight="239.0" prefWidth="284.0">
+                           <columns>
+                              <TableColumn fx:id="iname" prefWidth="157.0" text="NAME" />
+                              <TableColumn fx:id="iiq" prefWidth="117.0" text="IQ %" />
+                           </columns>
+                        </TableView>
+                        <Text fill="#046590" strokeType="OUTSIDE" strokeWidth="0.0" text="Intermediate">
+                           <font>
+                              <Font name="Bauhaus 93" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <effect>
+                        <InnerShadow color="#00182f" height="98.09" radius="55.957499999999996" width="127.74" />
+                     </effect>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow radius="34.4625" width="118.85" />
+               </effect>
+            </VBox>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="295.0" prefWidth="251.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TableView fx:id="texpert" prefHeight="238.0" prefWidth="295.0">
+                           <columns>
+                              <TableColumn fx:id="ename" minWidth="0.0" prefWidth="185.0" text="NAME" />
+                              <TableColumn fx:id="eiq" minWidth="0.0" prefWidth="65.0" text="IQ %" />
+                           </columns>
+                        </TableView>
+                        <Text fill="#7b2600" strokeType="OUTSIDE" strokeWidth="0.0" text="Expert">
+                           <font>
+                              <Font name="Bauhaus 93" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <effect>
+                        <InnerShadow color="#400505" height="98.09" radius="55.957499999999996" width="127.74" />
+                     </effect>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow radius="24.085" width="77.34" />
+               </effect>
+            </VBox>
+         </children>
+      </HBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="734.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="425.0" AnchorPane.leftAnchor="825.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@image/Positive%20Dynamic_96px.png" />
+         </image>
+         <effect>
+            <DropShadow height="62.51" radius="38.1675" spread="0.2" width="92.16" />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

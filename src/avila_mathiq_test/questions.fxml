@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="265.0" prefWidth="644.0" style="-fx-background-color: #006346;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutY="54.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="644.0" style="-fx-background-color: #006346;" AnchorPane.bottomAnchor="-11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="153.0" prefWidth="622.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 8; -fx-background-color: #006346;" styleClass="mainFxmlClass">
+               <children>
+                  <VBox layoutX="102.0" layoutY="14.0" prefHeight="126.0" prefWidth="400.0" spacing="19.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white; -fx-border-width: 8;">
+                     <children>
+                        <HBox alignment="BOTTOM_LEFT">
+                           <children>
+                              <Text fx:id="question" fill="GREEN" strokeType="OUTSIDE" strokeWidth="0.0" text="2)  4 x 11 = ?" underline="true" wrappingWidth="216.13671875">
+                                 <effect>
+                                    <Reflection />
+                                 </effect>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="answerbase" spacing="20.0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="34.0" prefWidth="401.0" spacing="20.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-background-radius: white; -fx-border-radius: 20; -fx-border-color: white; -fx-border-radius: 20; -fx-background-radius: 20;">
+                           <children>
+                              <JFXButton fx:id="prev" layoutX="21.0" layoutY="16.0" prefHeight="27.0" prefWidth="134.0" ripplerFill="#1f0068" style="-fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 1; -fx-border-radius: 20; -fx-background-color: orange;" text="previous" textFill="#f2f0f0" underline="true" />
+                              <JFXButton fx:id="next" layoutX="181.0" layoutY="16.0" prefHeight="27.0" prefWidth="103.0" ripplerFill="#1f0068" style="-fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 1; -fx-border-radius: 20; -fx-background-color: green;" text="Next" textFill="#f2f0f0" underline="true" />
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <padding>
+                              <Insets left="10.0" top="5.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                     <effect>
+                        <DropShadow height="111.31" radius="64.4525" spread="0.4" width="148.5" />
+                     </effect>
+                  </VBox>
+                  <AnchorPane layoutX="9.0" layoutY="28.0" prefHeight="70.0" prefWidth="71.0" style="-fx-background-radius: 2000; -fx-border-radius: 200;">
+                     <children>
+                        <ImageView fitHeight="103.0" fitWidth="93.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+                           <effect>
+                              <Reflection bottomOpacity="0.05" />
+                           </effect>
+                           <image>
+                              <Image url="@image/angle.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <stylesheets>
+                  <URL value="@../../../HEALTH%20EXPERT%20SYSTEM/src/health/expert/system/diagnosess.css" />
+               </stylesheets>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

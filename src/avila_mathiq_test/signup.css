@@ -1,0 +1,19 @@
+/*
+ * Empty Stylesheet file.
+ */
+ 
+good{.jfx-snackbar-content{
+    -fx-background-color:  #ffffff;
+}
+.jfx-snackbar-toast{
+    -fx-text-fill:#C84C15;
+    
+}}
+fail{.jfx-snackbar-content{
+    -fx-background-color:  red;
+}
+.jfx-snackbar-toast{
+    -fx-text-fill:white;
+    
+}}
+
